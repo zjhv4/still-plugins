@@ -1,0 +1,17 @@
+id = "org.wallpaper.source.mediarss"
+name = "MediaRSS"
+version = "0.1.1"
+api_version = "1.4.0"
+config_schema_version = 1
+status = "stable"
+source_homepage = "https://www.rssboard.org/media-rss"
+update_channel = "catalog"
+module = "plugin.wasm"
+module_sha256 = "6ea1ce9ecd9e678c3b9c841c1615d03b0718ae7f18530f6ac12d0220d2797502"
+logo = "logo.png"
+logo_sha256 = "05c219e62118295698f44c28e9b8ac9561619d75999f53313d72951009a52949"
+
+[compliance]
+access = "User-supplied HTTPS feed"
+attribution = "Preserve feed-provided author and source page"
+cache = "Host policy; downloaded files remain user-controlled"

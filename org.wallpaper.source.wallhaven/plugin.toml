@@ -1,0 +1,18 @@
+id = "org.wallpaper.source.wallhaven"
+name = "Wallhaven"
+version = "0.1.0"
+api_version = "1.4.0"
+config_schema_version = 1
+status = "stable"
+source_homepage = "https://wallhaven.cc/"
+api_docs = "https://wallhaven.cc/help/api"
+update_channel = "catalog"
+module = "plugin.wasm"
+module_sha256 = "3326d49d148b2f6a94369f3197907fce023335bf7df4473ca67a6887080aec77"
+logo = "logo.png"
+logo_sha256 = "36a7b1c5f8bc68ae12f4464e9ede7bbb24033f6a75c7b5f73825eb5468e1db3c"
+
+[compliance]
+access = "Official API v1; 45 requests per minute"
+attribution = "Preserve source page, uploader and content rating"
+cache = "Rights vary by upload; no redistribution permission is inferred"

@@ -1,0 +1,18 @@
+id = "org.wallpaper.source.nasa-apod"
+name = "NASA APOD"
+version = "0.2.0"
+api_version = "1.4.0"
+config_schema_version = 2
+status = "stable"
+source_homepage = "https://science.nasa.gov/apod/"
+api_docs = "https://api.nasa.gov/assets/files/apod/APOD-APIs-and-RSS-info.pdf"
+update_channel = "catalog"
+module = "plugin.wasm"
+module_sha256 = "7cc6c705e114403ed151ad15c9ce90e169b8ea909088af39e9df338850454912"
+logo = "logo.png"
+logo_sha256 = "5221805d2e198ab7d52b42b40357a06cde92c9aff4fee7f07e337acbbce97f65"
+
+[compliance]
+access = "Official NASA APOD Basic API"
+attribution = "Preserve APOD title, date, explanation and copyright field"
+cache = "Check entry copyright; NASA hosts third-party copyrighted images"

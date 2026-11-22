@@ -1,0 +1,19 @@
+id = "org.wallpaper.source.reddit"
+name = "Reddit"
+version = "0.1.0"
+api_version = "1.4.0"
+config_schema_version = 1
+status = "experimental"
+source_homepage = "https://www.reddit.com/"
+api_docs = "https://www.reddit.com/dev/api/"
+terms = "https://redditinc.com/policies/data-api-terms"
+update_channel = "catalog"
+module = "plugin.wasm"
+module_sha256 = "56e0394ca777be319bd9a48e8e7a8c83b742fbc6d4cb3d0c781bb91c88ced690"
+logo = "logo.png"
+logo_sha256 = "7dbc41328ecf79ea0826d86640b42d7e047ea7fcf0d0743e641dd359923ea19e"
+
+[compliance]
+access = "Registered app and OAuth token required; anonymous scraping is not used"
+attribution = "Preserve post, author, NSFW state and owner-rights notice"
+cache = "Deletion and retention rules must be enforced by the host"
