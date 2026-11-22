@@ -27,7 +27,24 @@ jobs:
         working-directory: .build/Still-plugin-source
         run: cargo test --locked --workspace
       - name: Build portable packages
-        run: python .build/Still-plugin-source/scripts/package_plugins.py --output .
+        run: python .build/Still-plugin-source/scripts/package_plugins.py --output .build/packages
+      - name: Publish only new plugin versions
+        run: |
+          python - <<'PY'
+          import json, shutil, sys
+          from pathlib import Path
+          sys.path.insert(0, str(Path('.build/Still-plugin-source/scripts').resolve()))
+          from package_plugins import write_catalog
+          previous = {entry['id']: entry['version'] for entry in json.loads(Path('catalog.json').read_text())['plugins']}
+          candidate = json.loads(Path('.build/packages/catalog.json').read_text())['plugins']
+          for entry in candidate:
+              old = previous.get(entry['id'])
+              if old is not None and tuple(map(int, entry['version'].split('.'))) <= tuple(map(int, old.split('.'))):
+                  continue
+              shutil.copytree(Path('.build/packages') / entry['id'], Path(entry['id']), dirs_exist_ok=True)
+              print('Published', entry['id'], entry['version'])
+          write_catalog(Path('.'))
+          PY
       - name: Commit packages and catalog
         run: |
           git config user.name 'github-actions[bot]'
