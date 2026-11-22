@@ -11,6 +11,12 @@ Set `artist` to a username or portfolio URL. `allow_nsfw` defaults to false. The
 scrape profile pages; artist, project permalink, adult flag, and original image variants come from
 the public portfolio JSON response.
 
+Each project image is a separate library item with its own asset ID. Original and
+display URLs are variants of that image; different project images are never used
+as resolution alternatives. The plugin pages through the complete portfolio,
+including projects with multiple images, without decoding every project on each
+request. Existing page-number cursors are accepted when upgrading.
+
 ```bash
 wallpaper-cli source import org.wallpaper.source.artstation --limit 2 --set artist=wlop
 ```

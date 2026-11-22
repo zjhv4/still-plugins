@@ -13,12 +13,12 @@
     },
     {
       "id": "org.wallpaper.source.artstation",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "files": {
-        "plugin.toml": "8c9a28e24509339714a96c163692393b4ca83ca1f4dfc7a55e413cedd061c6ea",
-        "plugin.wasm": "5215b7e0e127a288b24cd9f933b523909a76a08b1365d1fffe5df70101802331",
+        "plugin.toml": "6aaddb4e80d093fd9a1b4f65ae066e41d692d5fb745ac6a4369cbeb31b344e73",
+        "plugin.wasm": "4e81a3867b3e175e32061131ab41dd759d3177dc2b591e86b291dbdf9cdf78cb",
         "logo.png": "1e96dfeb3ba634258ef25db77845265ca80d6e3d4b6155a86844f707ee84235b",
-        "README.md": "f1ad9136e3736ff0d3a9d35b16e690b6be6302661e62e35320bb96f522310949"
+        "README.md": "84af7ad95dcd08e7e3c1d035d38ba3a695095b2f83d8814a01fc6e936f2bf054"
       }
     },
     {
