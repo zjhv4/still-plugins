@@ -1,13 +1,13 @@
 id = "org.wallpaper.source.google-earth-view"
 name = "Google Earth View"
-version = "0.2.1"
+version = "0.3.0"
 api_version = "1.4.0"
 config_schema_version = 1
 status = "compatibility"
 source_homepage = "https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh"
 update_channel = "catalog"
 module = "plugin.wasm"
-module_sha256 = "2a0a0146aaa444cedf2e6dd7c6af63ad0a90039299be3a1623baffef40cdd4cd"
+module_sha256 = "a916d239fce1cbb4fc2f8ad935df7f77471eca5ee3a17cd363a7fc5b251b24e5"
 logo = "logo.png"
 logo_sha256 = "a821dde0c6cc1da6053b8dd29b8b446f123e37a872d05f13a6d520602ddeb640"
 

@@ -33,12 +33,12 @@
     },
     {
       "id": "org.wallpaper.source.google-earth-view",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "files": {
-        "plugin.toml": "742836fc220bee7c3964d526bec9e07551e4ecb3778f015dad732ab0b44f35dd",
-        "plugin.wasm": "2a0a0146aaa444cedf2e6dd7c6af63ad0a90039299be3a1623baffef40cdd4cd",
+        "plugin.toml": "2fe62d5b600e00050b1e98a81789db155c9660b427ff926faa99e85b8dea51c5",
+        "plugin.wasm": "a916d239fce1cbb4fc2f8ad935df7f77471eca5ee3a17cd363a7fc5b251b24e5",
         "logo.png": "a821dde0c6cc1da6053b8dd29b8b446f123e37a872d05f13a6d520602ddeb640",
-        "README.md": "e98f548f4987979dbe1c6bb5f6842018b5745d09c0b57c2674cea2ca6d8f564a"
+        "README.md": "a996edd309a4c5dd7973dfc9f9c72050e6ea81ec5d1b61b7461795c7d1f27c07"
       }
     },
     {
