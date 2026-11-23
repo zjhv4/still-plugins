@@ -1,12 +1,12 @@
 id = "org.wallpaper.processor.image-fit"
 kind = "image_processor"
 name = "Still Image Fit"
-version = "0.1.0"
+version = "0.1.1"
 api_version = "1.4.0"
 config_schema_version = 1
 status = "stable"
 module = "plugin.wasm"
-module_sha256 = "01d77b45eabc6aadb49d2de21afba0fba3a9d7a955a04b318497bf84569769fb"
+module_sha256 = "5cc6d8dde9b73b583b32f3609de035545d9d7c55cd4442fa0151445cfef7bb7c"
 logo = "logo.png"
 logo_sha256 = "6ad229623498e5f1277800db3ab7cb11faf85eb2569e1213f7d8e55003c07b42"
 

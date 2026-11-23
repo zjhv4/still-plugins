@@ -3,14 +3,14 @@
   "plugins": [
     {
       "id": "org.wallpaper.processor.image-fit",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Still Image Fit",
       "kind": "image_processor",
       "files": {
-        "plugin.toml": "57eeac8c59c5a096422029ee08aadff3b8887549c6ae54a7601749b2e6e2805a",
-        "plugin.wasm": "01d77b45eabc6aadb49d2de21afba0fba3a9d7a955a04b318497bf84569769fb",
+        "plugin.toml": "a6f86fe7f43cdc06ddae9fbc0ad3d50ad28437de213a580a4bfdbd0352fe48d0",
+        "plugin.wasm": "5cc6d8dde9b73b583b32f3609de035545d9d7c55cd4442fa0151445cfef7bb7c",
         "logo.png": "6ad229623498e5f1277800db3ab7cb11faf85eb2569e1213f7d8e55003c07b42",
-        "README.md": "28a9a963539fde245948ef7082784800a4669d9d7eaf481b3db86e20377aa187"
+        "README.md": "3309783cefc90a2b359873ed22776e377dd15d3cda4abe3f21b87dd6db8aed81"
       }
     },
     {
