@@ -7,7 +7,10 @@
 | Access | Public first-party artist `projects.json` feed |
 | Capabilities | List |
 
-Set `artist` to a username or portfolio URL. `allow_nsfw` defaults to false. The adapter does not
+Set `artist` to a username, portfolio URL or artist RSS URL such as
+`https://www.artstation.com/USERNAME.rss`. These inputs resolve to the same public
+portfolio JSON endpoint. Individual artwork URLs are rejected with a configuration
+error rather than mistaken for an artist. `allow_nsfw` defaults to false. The adapter does not
 scrape profile pages; artist, project permalink, adult flag, and original image variants come from
 the public portfolio JSON response.
 

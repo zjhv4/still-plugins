@@ -15,14 +15,14 @@
     },
     {
       "id": "org.wallpaper.source.artstation",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "name": "ArtStation",
       "kind": "source",
       "files": {
-        "plugin.toml": "6aaddb4e80d093fd9a1b4f65ae066e41d692d5fb745ac6a4369cbeb31b344e73",
-        "plugin.wasm": "4e81a3867b3e175e32061131ab41dd759d3177dc2b591e86b291dbdf9cdf78cb",
+        "plugin.toml": "4321417962cb9076684f139b98b68aa81f08c4b5fc8e8f8541ad74544cc8c619",
+        "plugin.wasm": "b20f53b50f52bacbe91b8fcaa1944d61386414f41c99848547ceff5e864a5646",
         "logo.png": "1e96dfeb3ba634258ef25db77845265ca80d6e3d4b6155a86844f707ee84235b",
-        "README.md": "84af7ad95dcd08e7e3c1d035d38ba3a695095b2f83d8814a01fc6e936f2bf054"
+        "README.md": "d5bb06d863eb8cf00ff4c2e7bd1153bef5eef1a0cd4f7cbe11adf258dea99a64"
       }
     },
     {
@@ -87,38 +87,38 @@
     },
     {
       "id": "org.wallpaper.source.reddit",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Reddit",
       "kind": "source",
       "files": {
-        "plugin.toml": "c18a67734df8066855cb8e1833cee87d88133af4103ccb36446403a5f42da22b",
-        "plugin.wasm": "56e0394ca777be319bd9a48e8e7a8c83b742fbc6d4cb3d0c781bb91c88ced690",
+        "plugin.toml": "45d0b48c3073b1039fc5bf2c8cefef64e7654bcec1f45bbcd8b897f65fac4a79",
+        "plugin.wasm": "a6f8e2659a169120a4483eed60c156ea6836e1d782f917052d81aa8dfaed5048",
         "logo.png": "7dbc41328ecf79ea0826d86640b42d7e047ea7fcf0d0743e641dd359923ea19e",
-        "README.md": "aae08b013a624c0b01f9aea2af08364c4ab1ff69cc1f2ff94ac7af945890a928"
+        "README.md": "c24829605aa2abe7dd029fe6567f733461a793b8a68c739b0ae3413aab40a602"
       }
     },
     {
       "id": "org.wallpaper.source.unsplash",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "name": "Unsplash",
       "kind": "source",
       "files": {
-        "plugin.toml": "b8d355ce7ccca8d87c224b777727a69994bb4be6342f8b684a5dd634a685f7e6",
-        "plugin.wasm": "b2a870799a2becc1515223faab1f65e472184fa08839d568a6094b9c76117a91",
+        "plugin.toml": "a9a0e0476644ff21e6fb7d0dfb453d66e36389003a859154a738f619d8cf31cb",
+        "plugin.wasm": "7bb4f0f8cc1f62d0cb41061d7b76ebe255a0e9703b3f87fe8d9930894f42f0f5",
         "logo.png": "afc5203cb2608e983a5d34a136a35c2de2461f38e4fe6f94edbaeb17e78eec67",
-        "README.md": "9526ed3aca6634a6ede0427c892276cfdfe8bae388590e417dcc2d9bc32cd760"
+        "README.md": "481763718196c1a656fa5b9c0cedfabf6695727521fd2483f6c0e7e27a8aa453"
       }
     },
     {
       "id": "org.wallpaper.source.wallhaven",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "name": "Wallhaven",
       "kind": "source",
       "files": {
-        "plugin.toml": "6878b98eb3870e6d4cedc7d5e9b0416e41054388332cdcb8c395533deab2e455",
-        "plugin.wasm": "3326d49d148b2f6a94369f3197907fce023335bf7df4473ca67a6887080aec77",
+        "plugin.toml": "d6dc699e2be45a64dc21a81585df307bd7e2771968d9f5a0421febf1b6016159",
+        "plugin.wasm": "764a84a2986806d6a4d9f56c5b6b5d726a3f929022b288bc517e5365ab0ca2b7",
         "logo.png": "36a7b1c5f8bc68ae12f4464e9ede7bbb24033f6a75c7b5f73825eb5468e1db3c",
-        "README.md": "1a0d3271af4f58822d940e884dd5cefec01ed7b5fb527dd678d9f7cf6d48d949"
+        "README.md": "e0d11d1f3b9617c0b0b8254414c31c6420361b4ee202fd32c1c7576d4401b583"
       }
     }
   ]

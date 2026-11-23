@@ -16,3 +16,9 @@ submissions are ignored; NSFW is off by default. The Bearer token is injected on
 
 Each Reddit instance can contain multiple subreddit or user definitions, and multiple Reddit
 instances keep authorization and download directories separate.
+
+Direct HTTPS images from `i.redd.it`, `preview.redd.it` and `i.imgur.com` are
+supported. When present, the direct original is preferred over Reddit's resized
+preview; preview dimensions are not attached to the original. Otherwise a Reddit
+image preview can be used. Imgur album pages and extensionless share pages are not
+treated as image files. User listings send the selected sort and top time range.

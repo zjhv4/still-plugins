@@ -1,6 +1,6 @@
 id = "org.wallpaper.source.artstation"
 name = "ArtStation"
-version = "0.3.0"
+version = "0.3.1"
 api_version = "1.4.0"
 config_schema_version = 2
 status = "stable"
@@ -8,7 +8,7 @@ source_homepage = "https://www.artstation.com/"
 terms = "https://www.artstation.com/tos"
 update_channel = "catalog"
 module = "plugin.wasm"
-module_sha256 = "4e81a3867b3e175e32061131ab41dd759d3177dc2b591e86b291dbdf9cdf78cb"
+module_sha256 = "b20f53b50f52bacbe91b8fcaa1944d61386414f41c99848547ceff5e864a5646"
 logo = "logo.png"
 logo_sha256 = "1e96dfeb3ba634258ef25db77845265ca80d6e3d4b6155a86844f707ee84235b"
 

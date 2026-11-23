@@ -1,5 +1,11 @@
 # Wallhaven source
 
+Paste a `https://wallhaven.cc/search?...` link into `query` to reuse its search,
+categories, purity, sorting, ordering, resolution, aspect ratio, color, top range
+and seed filters. A `https://wallhaven.cc/tag/ID` link selects that tag. Page numbers
+come from Still's pagination, and API keys always come from the host credential
+field; keys in copied links are ignored. Random requests override the copied sort.
+
 | Field | Value |
 | --- | --- |
 | Plugin ID | `org.wallpaper.source.wallhaven` |

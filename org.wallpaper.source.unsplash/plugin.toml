@@ -1,6 +1,6 @@
 id = "org.wallpaper.source.unsplash"
 name = "Unsplash"
-version = "0.1.1"
+version = "0.2.0"
 api_version = "1.4.0"
 config_schema_version = 1
 status = "stable"
@@ -9,7 +9,7 @@ api_docs = "https://unsplash.com/documentation"
 terms = "https://unsplash.com/api-terms"
 update_channel = "catalog"
 module = "plugin.wasm"
-module_sha256 = "b2a870799a2becc1515223faab1f65e472184fa08839d568a6094b9c76117a91"
+module_sha256 = "7bb4f0f8cc1f62d0cb41061d7b76ebe255a0e9703b3f87fe8d9930894f42f0f5"
 logo = "logo.png"
 logo_sha256 = "afc5203cb2608e983a5d34a136a35c2de2461f38e4fe6f94edbaeb17e78eec67"
 

@@ -16,3 +16,9 @@ never forwards the API key to the CDN.
 
 Create as many Unsplash instances as needed, then add independent search, user, collection or topic
 contents inside each instance.
+
+`identifier` also accepts Unsplash page links: `https://unsplash.com/@USERNAME`,
+`/collections/ID/NAME`, `/t/TOPIC`, or `/s/photos/QUERY`. The link selects the matching
+API resource automatically; unsupported pages are reported before fetching. Page
+query parameters never supply credentials. Random requests retain their random
+endpoint and can filter by the linked user, collection, or topic.
