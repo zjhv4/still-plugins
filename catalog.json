@@ -4,6 +4,8 @@
     {
       "id": "org.wallpaper.processor.image-fit",
       "version": "0.1.0",
+      "name": "Still Image Fit",
+      "kind": "image_processor",
       "files": {
         "plugin.toml": "57eeac8c59c5a096422029ee08aadff3b8887549c6ae54a7601749b2e6e2805a",
         "plugin.wasm": "01d77b45eabc6aadb49d2de21afba0fba3a9d7a955a04b318497bf84569769fb",
@@ -14,6 +16,8 @@
     {
       "id": "org.wallpaper.source.artstation",
       "version": "0.3.0",
+      "name": "ArtStation",
+      "kind": "source",
       "files": {
         "plugin.toml": "6aaddb4e80d093fd9a1b4f65ae066e41d692d5fb745ac6a4369cbeb31b344e73",
         "plugin.wasm": "4e81a3867b3e175e32061131ab41dd759d3177dc2b591e86b291dbdf9cdf78cb",
@@ -24,6 +28,8 @@
     {
       "id": "org.wallpaper.source.bing",
       "version": "0.1.1",
+      "name": "Bing",
+      "kind": "source",
       "files": {
         "plugin.toml": "7ff8e3948c80ac6d95614dbe69c90801550cd747c21e43e6633dac7ba1f27452",
         "plugin.wasm": "73d790e4ac0a7a648a17ba2c7bd12e9a65cad49e7616a364086d68ee1a439f2e",
@@ -34,6 +40,8 @@
     {
       "id": "org.wallpaper.source.google-earth-view",
       "version": "0.3.0",
+      "name": "Google Earth View",
+      "kind": "source",
       "files": {
         "plugin.toml": "2fe62d5b600e00050b1e98a81789db155c9660b427ff926faa99e85b8dea51c5",
         "plugin.wasm": "a916d239fce1cbb4fc2f8ad935df7f77471eca5ee3a17cd363a7fc5b251b24e5",
@@ -44,6 +52,8 @@
     {
       "id": "org.wallpaper.source.local-folders",
       "version": "0.1.0",
+      "name": "Local folders",
+      "kind": "source",
       "files": {
         "plugin.toml": "5897c4a1185e1355045cd9053a17b1c117967109000d38304a141fcc1df732c9",
         "plugin.wasm": "ccb383de30173ff9386dbb5ca454640e5fd930470a9e213b02f5cc6e9d67e183",
@@ -54,6 +64,8 @@
     {
       "id": "org.wallpaper.source.mediarss",
       "version": "0.1.1",
+      "name": "MediaRSS",
+      "kind": "source",
       "files": {
         "plugin.toml": "858112ca31ba6082ac492e7c3e9671bb2c117d85bfec7b21cbe57d093423ee56",
         "plugin.wasm": "6ea1ce9ecd9e678c3b9c841c1615d03b0718ae7f18530f6ac12d0220d2797502",
@@ -64,6 +76,8 @@
     {
       "id": "org.wallpaper.source.nasa-apod",
       "version": "0.2.0",
+      "name": "NASA APOD",
+      "kind": "source",
       "files": {
         "plugin.toml": "bcc61d379eab40e263b3977a4b8e2398e3dd01a475413353d0ecee9234b8e410",
         "plugin.wasm": "7cc6c705e114403ed151ad15c9ce90e169b8ea909088af39e9df338850454912",
@@ -74,6 +88,8 @@
     {
       "id": "org.wallpaper.source.reddit",
       "version": "0.1.0",
+      "name": "Reddit",
+      "kind": "source",
       "files": {
         "plugin.toml": "c18a67734df8066855cb8e1833cee87d88133af4103ccb36446403a5f42da22b",
         "plugin.wasm": "56e0394ca777be319bd9a48e8e7a8c83b742fbc6d4cb3d0c781bb91c88ced690",
@@ -84,6 +100,8 @@
     {
       "id": "org.wallpaper.source.unsplash",
       "version": "0.1.1",
+      "name": "Unsplash",
+      "kind": "source",
       "files": {
         "plugin.toml": "b8d355ce7ccca8d87c224b777727a69994bb4be6342f8b684a5dd634a685f7e6",
         "plugin.wasm": "b2a870799a2becc1515223faab1f65e472184fa08839d568a6094b9c76117a91",
@@ -94,6 +112,8 @@
     {
       "id": "org.wallpaper.source.wallhaven",
       "version": "0.1.0",
+      "name": "Wallhaven",
+      "kind": "source",
       "files": {
         "plugin.toml": "6878b98eb3870e6d4cedc7d5e9b0416e41054388332cdcb8c395533deab2e455",
         "plugin.wasm": "3326d49d148b2f6a94369f3197907fce023335bf7df4473ca67a6887080aec77",
